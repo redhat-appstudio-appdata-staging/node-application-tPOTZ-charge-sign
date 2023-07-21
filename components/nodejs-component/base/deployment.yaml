@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-component
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/karthik-jk-tenant/node-application/nodejs-component@sha256:b296a2fde988225cc8d2ed72221c89e67d7f1b7f06837c64f7af5475a6d90a3d
         name: my-nodejs
         ports:
         - containerPort: 3001
